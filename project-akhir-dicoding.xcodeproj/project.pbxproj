@@ -14,6 +14,10 @@
 		EA1C8FEA289EC27700CB75B4 /* project_akhir_dicodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C8FE9289EC27700CB75B4 /* project_akhir_dicodingTests.swift */; };
 		EA1C8FF4289EC27700CB75B4 /* project_akhir_dicodingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C8FF3289EC27700CB75B4 /* project_akhir_dicodingUITests.swift */; };
 		EA1C8FF6289EC27700CB75B4 /* project_akhir_dicodingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C8FF5289EC27700CB75B4 /* project_akhir_dicodingUITestsLaunchTests.swift */; };
+		EA1C9005289EC47100CB75B4 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C9004289EC47100CB75B4 /* AboutMe.swift */; };
+		EA291F07289FF386002E7B47 /* DetailNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA291F06289FF386002E7B47 /* DetailNews.swift */; };
+		EA291F09289FFEFC002E7B47 /* NewsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA291F08289FFEFC002E7B47 /* NewsEntity.swift */; };
+		EA291F0B28A001DA002E7B47 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA291F0A28A001DA002E7B47 /* NewsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		EA1C8FEF289EC27700CB75B4 /* project-akhir-dicodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project-akhir-dicodingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1C8FF3289EC27700CB75B4 /* project_akhir_dicodingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_akhir_dicodingUITests.swift; sourceTree = "<group>"; };
 		EA1C8FF5289EC27700CB75B4 /* project_akhir_dicodingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_akhir_dicodingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA1C9004289EC47100CB75B4 /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
+		EA291F06289FF386002E7B47 /* DetailNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNews.swift; sourceTree = "<group>"; };
+		EA291F08289FFEFC002E7B47 /* NewsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsEntity.swift; sourceTree = "<group>"; };
+		EA291F0A28A001DA002E7B47 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,9 @@
 		EA1C8FD7289EC27500CB75B4 /* project-akhir-dicoding */ = {
 			isa = PBXGroup;
 			children = (
+				EA1C9003289EC45C00CB75B4 /* Model */,
+				EA1C9002289EC44700CB75B4 /* Views */,
 				EA1C8FD8289EC27500CB75B4 /* project_akhir_dicodingApp.swift */,
-				EA1C8FDA289EC27500CB75B4 /* ContentView.swift */,
 				EA1C8FDC289EC27700CB75B4 /* Assets.xcassets */,
 				EA1C8FDE289EC27700CB75B4 /* Preview Content */,
 			);
@@ -125,6 +134,25 @@
 				EA1C8FF5289EC27700CB75B4 /* project_akhir_dicodingUITestsLaunchTests.swift */,
 			);
 			path = "project-akhir-dicodingUITests";
+			sourceTree = "<group>";
+		};
+		EA1C9002289EC44700CB75B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA1C8FDA289EC27500CB75B4 /* ContentView.swift */,
+				EA1C9004289EC47100CB75B4 /* AboutMe.swift */,
+				EA291F06289FF386002E7B47 /* DetailNews.swift */,
+				EA291F0A28A001DA002E7B47 /* NewsViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA1C9003289EC45C00CB75B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA291F08289FFEFC002E7B47 /* NewsEntity.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1C8FDB289EC27500CB75B4 /* ContentView.swift in Sources */,
+				EA1C9005289EC47100CB75B4 /* AboutMe.swift in Sources */,
+				EA291F09289FFEFC002E7B47 /* NewsEntity.swift in Sources */,
 				EA1C8FD9289EC27500CB75B4 /* project_akhir_dicodingApp.swift in Sources */,
+				EA291F0B28A001DA002E7B47 /* NewsViewModel.swift in Sources */,
+				EA291F07289FF386002E7B47 /* DetailNews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
